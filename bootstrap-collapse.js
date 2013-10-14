@@ -18,6 +18,10 @@
  * ============================================================ */
 
 
+/*
+	+ accordion-toggle fix by TCU
+	@see https://github.com/TobiasCurth/bootstrap-collapse.js
+*/
 !function ($) {
 
     "use strict"; // jshint ;_;
