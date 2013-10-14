@@ -73,7 +73,7 @@
             this.transition('addClass', $.Event('show'), 'shown')
 
             $(this.$element).each(function(index, item) {
-                $(item.parentNode).find('.accordion-toggle').removeClass('collapsed')
+                $(item.parentNode).find('.accordion-toggle').addClass('collapsed')
             });
 
             $.support.transition && this.$element[dimension](this.$element[0][scroll])
